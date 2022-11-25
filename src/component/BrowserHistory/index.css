@@ -1,0 +1,47 @@
+.history-results {
+  background-color: white;
+  box-shadow: 0px -2px 5px #ccc;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  padding: 16px;
+}
+li.history-item {
+  display: flex;
+  align-items: center;
+}
+.search-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-left: 60px;
+  width: 100%;
+}
+.search-item > img {
+  width: 25px;
+}
+.time-accessed {
+  white-space: nowrap;
+}
+img.logo-url {
+  margin-right: 15px;
+}
+.title {
+  margin-right: 10px;
+  font-weight: 500;
+}
+.domain-url {
+  font-size: 13px;
+}
+.no-result {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
